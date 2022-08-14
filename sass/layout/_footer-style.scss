@@ -25,11 +25,11 @@
     color: var(--accent-color);
 }
 
-.footer-list {
+.footer__list {
     font-style: normal;
 }
 
-.footer-item {
+.footer-adress__item {
     margin-bottom: 9px;
 
     &:last-child {
@@ -45,7 +45,7 @@
 }
 
 
-.footer-map {
+.footer-adress__map {
     color: var(--main-color);
     font-size: 14px;
     line-height: 1.72;
