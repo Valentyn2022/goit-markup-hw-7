@@ -53,7 +53,7 @@
     gap: 30px;
 }
 
-.portfolio-wrapper {
+.portfolio-item__wrapper {
     padding: 20px 24px;
     background-color: var(--main-color);
     border: 1px solid#ececec;
@@ -61,26 +61,26 @@
     min-width: 322px;
 }
 
-.overlay-thumb {
+.portfolio-overlay__thumb {
     position: relative;
     overflow: hidden;
 }
 
-.portfolio-title {
+.portfolio-item__title{
     @include font(18px, 700, 36px);
    
     letter-spacing: 0.06em;
     margin-bottom: 4px;
 }
 
-.portfolio-desc {
+.portfolio-item__desc {
     color: var(--secondary-text-color);
     @include font(15px, 400, 30px);
     
     letter-spacing: 0.03em;
 }
 
-.overlay {
+.portfolio__overlay {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -105,7 +105,7 @@
 
 }
 
-.portfolio-item:hover .overlay {
+.portfolio-item:hover .portfolio__overlay {
     opacity: 1;
     transform: translate(0, 0);
 }
